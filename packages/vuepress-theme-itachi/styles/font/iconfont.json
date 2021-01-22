@@ -1,0 +1,44 @@
+{
+  "id": "2319125",
+  "name": "vuepress",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "vuepress",
+  "glyphs": [
+    {
+      "icon_id": "400020",
+      "name": "主页",
+      "font_class": "htmal5icon06",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "869170",
+      "name": "主页",
+      "font_class": "zhuye",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "2380692",
+      "name": "主页",
+      "font_class": "zhuye1",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "2507444",
+      "name": "主页",
+      "font_class": "zhuye2",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "8679369",
+      "name": "主页",
+      "font_class": "zhuye3",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    }
+  ]
+}

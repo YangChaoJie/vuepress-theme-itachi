@@ -1,0 +1,16 @@
+{
+  "name": "vuepress-theme-itachi",
+  "version": "1.0.1",
+  "description": "theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jerryandyang",
+  "license": "ISC",
+  "dependencies": {
+    "@vue/composition-api": "^1.0.0-beta.22",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {}
+}

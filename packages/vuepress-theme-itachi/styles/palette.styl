@@ -1,0 +1,106 @@
+$darkColor10 = rgba(0, 0, 0, 1)
+$darkColor9 = rgba(0, 0, 0, .9)
+$darkColor8 = rgba(0, 0, 0, .8)
+$darkColor7 = rgba(0, 0, 0, .7)
+$darkColor6 = rgba(0, 0, 0, .6)
+$darkColor5 = rgba(0, 0, 0, .5)
+$darkColor4 = rgba(0, 0, 0, .4)
+$darkColor3 = rgba(0, 0, 0, .3)
+$darkColor2 = rgba(0, 0, 0, .2)
+$darkColor1 = rgba(0, 0, 0, .1)
+
+$lightColor10 = rgba(255, 255, 255, 1)
+$lightColor9 = rgba(255, 255, 255, .9)
+$lightColor8 = rgba(255, 255, 255, .8)
+$lightColor7 = rgba(255, 255, 255, .7)
+$lightColor6 = rgba(255, 255, 255, .6)
+$lightColor5 = rgba(255, 255, 255, .5)
+$lightColor4 = rgba(255, 255, 255, .4)
+$lightColor3 = rgba(255, 255, 255, .3)
+$lightColor2 = rgba(255, 255, 255, .2)
+$lightColor1 = rgba(255, 255, 255, .1)
+
+
+$codeBg = #252526
+$codeColor = #525252
+$borderColor= rgba(0,0,0,.15)
+$bodyBg = rgb(39,39,43)
+$mainBg = rgba(30,30,34,1)
+$sidebarBg = rgba(255,255,255, 1)
+$blurBg = rgba(30,30,34,.8)
+$sidebarWidth = 18rem
+
+
+$textShadow = 0 2px 4px $darkColor1;
+$borderRadius = .25rem
+$lineNumbersWrapperWidth = 2.5rem
+
+$backgroundColor ?= #fff
+$backgroundColorDark ?= #181818
+
+$boxShadow = 0 1px 8px 0 $darkColor1
+$boxShadowHover = 0 2px 16px 0 $darkColor2
+$boxShadowDark = 0 1px 8px 0 $darkColor6
+$boxShadowHoverDark = 0 2px 16px 0 $darkColor7
+
+$textColor ?= #242424
+$textColorDark ?= $lightColor8
+$textColorSub = #7F7F7F
+$textColorSubDark = #8B8B8B
+
+$borderColor ?= #eaecef
+$borderColorDark ?= $darkColor3
+
+$codeColor ?= rgba(27, 31, 35, 0.05)
+$codeColorDark ?= $darkColor3
+
+$maskColor ?= #888
+$maskColorDark ?= #000
+
+$homePageWidth = 1126px
+$contentWidth = 860px
+$sidebarWidth = 18rem
+
+// 浅色模式
+.theme-mode-light
+  --bodyBg:rgba(255,255,255,1)
+  --mainBg: rgba(255,255,255,1)
+  --sidebarBg: rgba(255,255,255,.8)
+  --blurBg: rgba(255,255,255,.9)
+  --customBlockBg: #f1f1f1
+  --textColor: #00323c
+  --textLightenColor: #0085AD
+  --borderColor: rgba(0,0,0,.15)
+  // --codeBg: #f6f6f6
+  --codeBg: #252526
+  // --codeColor: #525252
+  --codeColor: #fff
+  codeThemeLight()
+
+// 深色模式
+.theme-mode-dark
+  --bodyBg: rgb(39,39,43)
+  --mainBg: rgba(30,30,34,1)
+  --sidebarBg: rgba(30,30,34,.8)
+  --blurBg: rgba(30,30,34,.8)
+  --customBlockBg: rgb(39,39,43)
+  --textColor: rgb(155,155,170)
+  --textLightenColor: #0085AD
+  --borderColor: #2C2C3A
+  --codeBg: #252526
+  --codeColor: #fff
+  codeThemeDark()
+
+// 阅读模式
+.theme-mode-read
+  --bodyBg: rgb(236,236,204)
+  --mainBg: rgba(245,245,213,1)
+  --sidebarBg: rgba(245,245,213,.8)
+  --blurBg: rgba(245,245,213,.9)
+  --customBlockBg: rgb(236,236,204)
+  --textColor: #704214
+  --textLightenColor: #996633
+  --borderColor: rgba(0,0,0,.15)
+  --codeBg: #282c34
+  --codeColor: #fff
+  codeThemeDark()
